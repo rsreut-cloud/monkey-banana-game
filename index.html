@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>🐵 האכילו את הקופים 🍌</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sky">
+    <div class="sun">☀️</div>
+    <div class="cloud cloud1">☁️</div>
+    <div class="cloud cloud2">☁️</div>
+    <div class="cloud cloud3">☁️</div>
+  </div>
+
+  <header class="hud">
+    <div class="hud-top">
+      <div class="score">🍌 <span id="score">0</span></div>
+      <div class="pickers">
+        <div class="sound-picker" id="sound-picker"></div>
+        <div class="picker-divider"></div>
+        <div class="layout-picker" id="layout-picker"></div>
+      </div>
+    </div>
+    <div class="tutorial" aria-hidden="true">
+      <span class="tutorial-banana">🍌</span>
+      <span class="tutorial-arrow">⬅️</span>
+      <span class="tutorial-monkey">🐵</span>
+    </div>
+  </header>
+
+  <main class="game">
+    <div class="monkeys" id="monkeys"></div>
+    <div class="banana-tray" id="tray"></div>
+  </main>
+
+  <div class="grass"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
